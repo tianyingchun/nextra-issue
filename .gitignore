@@ -1,0 +1,26 @@
+/node_modules
+/.next/
+.DS_Store
+.vercel
+public/.nextra
+tsconfig.tsbuildinfo
+
+# dependencies
+node_modules
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# testing
+/coverage
+.out/
+
+# Build directories (next.js...)
+/.next/
+/out/
+/build
+.eslintcache
